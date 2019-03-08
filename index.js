@@ -1,0 +1,1 @@
+var prefetchImages=function(){"use strict";const r=r=>new Promise((e,t)=>{let s=new Image;s.onload=(()=>e({path:r,status:"ok"})),s.onerror=(()=>t({path:r,status:"error"})),s.src=r});return e=>Promise.all(e.map(r))}();
