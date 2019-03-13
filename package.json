@@ -6,7 +6,7 @@
   "repository": "git@github.com:SubZtep/prefetch-images.git",
   "author": "Andras Serfozo <subztep@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "rollup -c rollup.config.ts",
     "test": "jest"

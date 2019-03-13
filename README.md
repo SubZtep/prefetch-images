@@ -1,25 +1,19 @@
-# :construction::construction::construction::no_pedestrians:
-
-> it's not the final form, come back _l8r pls_
-
----
-
 ## prefetch-images _:flower_playing_cards:_
 
 **Synchronously** download images into the web browser cache **on the client side**.
 
-Let users _(&crawlers)_ **wait** a few seconds for the **fast** impression to get the full experience of your brutalist :hearts: page without lagging.
+Let users _(&crawlers)_ **wait** first and experience **fast** impression of your brutalist :hearts: page without the lag.
 
 :wavy_dash:
 
 ### Example
 
 ```js
-import prefetch from "prefetch-images"
+import prefetchImages from "prefetch-images"
 
 // ...code...
 
-prefetch([
+prefetchImages([
   "https://media.giphy.com/media/sPuDbEFCsoN32/giphy.gif",
   "https://media.giphy.com/media/3wDD0Khwova4o/giphy.gif"
 ]).then(() => {
@@ -51,9 +45,9 @@ yarn add prefetch-images # npm install prefetch-images
 
 ### TODO
 
-- [ ] Handle timeouts
-- [ ] Proper browser tests
-- [ ] Make it SEO friendly
+- [ ] Handle timeouts (min/max excecuton time)
+- [ ] Proper browser tests (and remove the current fake one)
+- [ ] Make it SEO friendly somehow
 - [ ] ?
 
 ### License
