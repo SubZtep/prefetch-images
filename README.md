@@ -23,6 +23,10 @@ prefetchImages([
 // ...code...
 ```
 
+### Nuxt.js
+
+This plugin is currently an `esm` module; you may need to add it to the `transpile` build option in `nuxt.config.js`.
+
 ### Browser Support
 
 Modern browsers, **no IE**! (no Babel)
